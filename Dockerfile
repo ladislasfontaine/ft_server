@@ -6,7 +6,7 @@
 #    By: lafontai <lafontai@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/05/10 19:08:56 by lafontai          #+#    #+#              #
-#    Updated: 2020/05/27 15:54:55 by lafontai         ###   ########.fr        #
+#    Updated: 2020/05/27 16:54:27 by lafontai         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,4 +45,4 @@ EXPOSE 80 443
 ENV AUTO_INDEX on
 
 #docker build -t IMAGE_NAME .
-#docker run -tid -p 80:80 -p 443:443 IMAGE_NAME (-e AUTO_INDEX=off if you want to desactivate autoindex)
+#docker run -d -p 81:80 -p 443:443 IMAGE_NAME (-e AUTO_INDEX=off if you want to desactivate autoindex)
